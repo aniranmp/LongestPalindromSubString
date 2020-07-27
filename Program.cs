@@ -61,7 +61,7 @@ class Program
 			bool flag = false;
 		string str = Console.ReadLine();
 			while(!flag)
-			if (string.IsNullOrWhiteSpace(str){
+			if (string.IsNullOrWhiteSpace(str)){
 				flag = true;
 				Console.WriteLine("Length is: " + longestPalSubstr(str));
 
@@ -69,7 +69,7 @@ class Program
 			else
 			{
 				flag = false;
-				Console.WriteLine("Please Write")
+					Console.WriteLine("Please Write");
 			}
 	}
 }
